@@ -1,0 +1,14 @@
+flickr8k:
+  images_dir: "data/Flickr8k Images (8091 files)"
+  captions_file: "data/Amharic_language__captions.txt"
+  captions_file_en: "data/English_language__captions.txt"
+  splits_file: "data/splits.json"
+
+bnature:
+  enabled: false
+
+split:
+  train: 0.8
+  val: 0.1
+  test: 0.1
+  seed: 42
